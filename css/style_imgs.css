@@ -1,0 +1,50 @@
+*{margin: 0; padding: 0; font-family: "微软雅黑"; font-size: 18px; }
+body{
+	background: #eee;
+}
+#oprate{
+	width: 340px;
+	height: 30px;
+	margin: 50px auto;
+}
+#oprate select,#oprate button,#oprate div{
+	width: 120px;
+	height: 36px;
+	margin-right:6px;
+	background: skyblue;
+	border: none;
+	color: #fff;
+	text-align: center;
+	line-height: 36px;
+}
+#oprate div{
+	float: right;
+	width: 60px;
+	display: inline-block;
+	
+}
+#oprate div span{
+	color: #000;
+	padding: 0 4px;
+}
+
+
+#imgs{
+	/* width: 240px;
+	height: 240px; */
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	display: none;
+}
+#imgs div{
+	width: 120px;
+	height: 120px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	line-height: 70px;
+	float: left;
+}
+#imgs div img{
+	width: 120px;
+	height: 120px;
+}
