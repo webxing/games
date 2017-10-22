@@ -125,7 +125,7 @@
 		var nullPos = data.indexOf(Math.pow(level,2));
 		var dis = Math.abs(nullPos-clickPos);
 		if(dis==level ||dis==1){
-			var condition = nullPos%level==0&&(clickPos+1)%level==0 || clickPos%level==0&&(nullPos+1)%level==0 || nullPos==clickPos;
+			var condition = nullPos%level==0&&(clickPos+1)%level==0 || clickPos%level==0&&(nullPos+1)%level==0;
 			if(!condition){
 				data[nullPos] = data[clickPos];
 				data[clickPos] = Math.pow(level,2);
